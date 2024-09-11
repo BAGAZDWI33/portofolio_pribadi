@@ -1,0 +1,64 @@
+/* Background color */
+body {
+    background-color: #001f3f; /* Navy blue (biru dongker) */
+    color: white; /* Text color set to white for contrast */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif; /* Elegant font choice */
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Subtle shadow for elegance */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f1f1f1; /* Slightly off-white for softer look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Elegant shadow */
+}
+
+/* Label styling */
+label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+/* Input styling */
+input[type="text"] {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
